@@ -206,7 +206,6 @@ const FormBanner = ({ header, banner, method, url, type, imgActive }) => {
                             alt="Picture of the author"
                             width={200}
                             height={200} />
-                            <button  onClick={(e)=> console.log("hay")}>test</button>
                         </div>)}
                 <form onSubmit={submitHandler} className={styles.form}>
                     <div className={styles.control}>
